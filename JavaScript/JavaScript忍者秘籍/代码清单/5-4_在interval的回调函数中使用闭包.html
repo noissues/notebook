@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box1" style="position: relative;">First Box</div>
+    <script>
+        function animateIt(elementId) {
+            var elem = document.getElementById(elementId);
+            var tick = 0; // 记录动画执行次数
+            var timer = setInterval(function() {
+                if (tick < 100) {
+                    elem.style.left = elem.style.top = tick + "px";
+                    tick++;
+                } else {
+                    clearInterval(timer);
+                    console.log(tick);
+                    console.log(elem);
+                    console.log(timer);
+                }
+            }, 10); // 每 10 毫秒调用一次
+        }
+        animateIt("box1");
+    </script>
+</body>
+</html>

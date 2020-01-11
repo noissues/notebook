@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.header,.main,.footer {
+			background-color: #eee;
+			margin: 0 auto;
+			margin-bottom: 8px;
+			border: 1px dashed #ccc;
+			text-align: center;
+		}
+
+		.header {
+			height: 80px;
+
+		}
+		.main {
+			width: 960px;
+			height: 600px;
+			border-top: 0;
+			border-bottom: 0;
+		}
+		.footer {
+			height: 100px;
+		}
+		.left {
+			width: 360px;
+			height: 100%;
+			background-color: pink;
+			float: left;
+		}
+		.right {
+			width: 592px;
+			height: 100%;
+			background-color: skyblue;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">header</div>
+	<div class="main">
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+	<div class="footer">footer</div>
+</body>
+</html>

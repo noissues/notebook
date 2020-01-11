@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .top,.banner,.main,.footer {
+            width: 960px;
+            margin: 0 auto;
+            border: 1px dashed;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .top {
+            height: 80px;
+            line-height: 80px; /* 文字垂直居中 */
+        }
+        .banner {
+            height: 120px;
+            line-height: 120px;
+        }
+        .main {
+            height: 400px;
+            line-height: 400px;
+        }
+        .footer {
+            height: 80px;
+            line-height: 80px;
+        }
+        .left {
+            float: left;
+            width: 310px;
+            background-color: pink;
+        }
+        .right {
+            float: right;
+            width: 640px;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">top</div>
+    <div class="banner">banner</div>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+    <div class="footer">footer</div>
+</body>
+</html>
