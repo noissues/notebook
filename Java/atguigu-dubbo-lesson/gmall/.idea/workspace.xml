@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39507705-9baf-4296-ae68-3b1f5df64bd1" name="Default Changelist" comment="gmall-interface" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Maven/apache-maven-3.6.0-xh" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="350" />
+    <option name="width" value="1440" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectId" id="1WFf0XVHI7CPJB8kHVfau933QfO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41081703" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gmall" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainApplication (1)">
+    <configuration name="MainApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.MainApplication" />
+      <module name="order-service-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.gmall.MainApplication" />
+      <module name="user-service-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApplication" />
+      <item itemvalue="Application.MainApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApplication (1)" />
+        <item itemvalue="Application.MainApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\horhsu\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39507705-9baf-4296-ae68-3b1f5df64bd1" name="Default Changelist" comment="" />
+      <created>1578145491153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578145491153</updated>
+      <workItem from="1578145495185" duration="7651000" />
+      <workItem from="1578750042056" duration="14000" />
+      <workItem from="1578750091193" duration="316000" />
+    </task>
+    <task id="LOCAL-00001" summary="user-service">
+      <created>1578152303632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578152303632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="order-service">
+      <created>1578152324251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578152324251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="gmall-interface">
+      <created>1578152351924</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578152351924</updated>
+    </task>
+    <task id="LOCAL-00004" summary="user-service">
+      <created>1578152474294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578152474294</updated>
+    </task>
+    <task id="LOCAL-00005" summary="order-service">
+      <created>1578152493406</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578152493406</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gmall-interface" />
+    <MESSAGE value="user-service" />
+    <MESSAGE value="order-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="order-service" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="239" y="14" key="SettingsEditor" timestamp="1578750365862">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="239" y="14" key="SettingsEditor/0.0.1474.864@0.0.1474.864" timestamp="1578750365862" />
+    <state x="357" y="125" key="spring file set editor" timestamp="1578750363273">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="357" y="125" key="spring file set editor/0.0.1474.864@0.0.1474.864" timestamp="1578750363273" />
+  </component>
+</project>

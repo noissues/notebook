@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ea9d478-65b1-49fc-ab88-49e266c4fb8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atguigu-dubbo-lesson/gmall/.idea/gmall.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/aop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/aop.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +23,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../atguigu-dubbo-lesson/gmall" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -79,6 +79,7 @@
       <workItem from="1576816177635" duration="2284000" />
       <workItem from="1577063726497" duration="613000" />
       <workItem from="1578743313779" duration="1407000" />
+      <workItem from="1578748881344" duration="998000" />
     </task>
     <servers />
   </component>
@@ -95,6 +96,10 @@
       <screen x="0" y="0" width="1474" height="864" />
     </state>
     <state x="489" y="194" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1474.864@0.0.1474.864" timestamp="1578744514142" />
+    <state x="518" y="187" key="FileChooserDialogImpl" timestamp="1578750088379">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="518" y="187" key="FileChooserDialogImpl/0.0.1474.864@0.0.1474.864" timestamp="1578750088379" />
     <state x="239" y="14" key="SettingsEditor" timestamp="1578744515667">
       <screen x="0" y="0" width="1474" height="864" />
     </state>
