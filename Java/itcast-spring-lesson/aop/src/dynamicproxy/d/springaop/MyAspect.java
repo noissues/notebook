@@ -1,4 +1,4 @@
-package dynamicproxy.c.factorybean;
+package dynamicproxy.d.springaop;
 
 
 import org.aopalliance.intercept.MethodInterceptor;
