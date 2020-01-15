@@ -2,6 +2,27 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <!--创建目标类-->
+    <!--1 创建目标类-->
     <bean id="userServiceId" class="dynamicproxy.c.factorybean.UserServiceImpl" />
+    <!--2 创建切面类-->
+    <bean id="myAspectId" class="dynamicproxy.c.factorybean.MyAspect" />
+    <!--3 创建代理类
+        * 使用工厂 bean，FactoryBean，底层调用 getObject() 返回特殊 bean
+        * ProxyFactoryBean 用于创建代理工厂 bean，生成特殊代理对象 
+            - interfaces: 确定接口们
+                 通过 <array> 可以设置多个值，只有一个值时，可以直接用 value=""
+            - target: 确定目标类
+            - interceptorNames: 通知 切面类的名称类型是 String[]，不要写错为 ref
+            - optimize: 强制使用 CGLIB 
+    -->
+    <bean id="proxyServiceId" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="interfaces" value="dynamicproxy.c.factorybean.UserService"/>
+        <!--    <array>-->
+        <!--        <value>dynamicproxy.c.factorybean.UserService</value>-->
+        <!--    </array>-->
+        <!--</property>--> <!--因为只有一个值此写法可以简化为 value="" 的形式-->
+        <property name="target" ref="userServiceId"/>
+        <property name="interceptorNames" value="myAspectId"/>
+        <property name="optimize" value="true"/>
+    </bean>
 </beans>
