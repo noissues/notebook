@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!--2 将 SlayDragonQuest 通过构造参数注入到骑士-->
+  <bean id="knight" class="sia.knights.BraveKnight">
+    <!--<constructor-arg ref="quest" />-->
+    <constructor-arg ref="rescueQuest" />
+  </bean>
+
+  <!--1 创建 SlayDragonQuest 类（屠龙的探险）-->
+  <bean id="quest" class="sia.knights.SlayDragonQuest">
+    <!--屠龙类的 PrintStream 依赖通过 SpEL注入-->
+    <constructor-arg value="#{T(System).out}" />
+  </bean>
+
+  <bean id="rescueQuest" class="sia.knights.RescueDamselQuest"/>
+</beans>
