@@ -1,4 +1,4 @@
-package dynamicproxy.d.springaop;
+package dynamicproxy.e.aspectj.xml;
 
 public class UserServiceImpl implements UserService {
     @Override
