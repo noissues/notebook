@@ -11,7 +11,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
 @Controller
@@ -41,7 +43,7 @@ public class AuthorizeController {
     @GetMapping("/callback")
     public String callback(@RequestParam(name = "code") String code,
                            @RequestParam(name = "state") String state,
-                           HttpServletRequest request) {
+                           HttpServletRequest request, HttpServletResponse response) {
         AccessTokenRequestDTO accessTokenRequest = new AccessTokenRequestDTO();
         accessTokenRequest.setClient_id(clientId);
         accessTokenRequest.setClient_secret(clientSecret);
@@ -58,15 +60,16 @@ public class AuthorizeController {
         if (gitHubUser != null) {
             // 通过 githubUser 创建 user 并入库
             User user = new User();
-            user.setToken(UUID.randomUUID().toString());
+
+            String token = UUID.randomUUID().toString();
+            user.setToken(token);
             user.setName(gitHubUser.getName());
             user.setAccountId(String.valueOf(gitHubUser.getId()));
             user.setGmtCreate(System.currentTimeMillis());
             user.setGmtModified(user.getGmtCreate());
             userMapper.insert(user);
-
-            // 使用 GitHub 认证成功，将 user 信息写入 session，可以直接从前端取到显示在页面上，且刷新也是登录态
-            request.getSession().setAttribute("user", gitHubUser);
+            // 将登陆的用户写入 cookie
+            response.addCookie(new Cookie("token", token));
             return "redirect:/";
         } else {
             // TODO
